@@ -1,0 +1,12 @@
+/* =Twitter Admin
+-------------------------------------------------------------- */
+
+#icon-codepress-twitter {
+	background-image: url(../images/bird_gray_32.png);
+}
+
+/* =Twitter Settings Page
+----------------------------------*/
+#cptw input.code {
+	min-width: 400px;
+}

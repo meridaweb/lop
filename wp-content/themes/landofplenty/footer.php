@@ -1,0 +1,1 @@
+		</div><!--content-->		<footer id="copyright">			<a href="<?php echo home_url(); ?>">&copy; LandofPlenty</a> All rights reserved, unless stated otherwise		</footer>	</div><!--wrapper-->	<?php wp_footer() ?></body></html>

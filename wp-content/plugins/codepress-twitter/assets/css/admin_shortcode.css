@@ -1,0 +1,26 @@
+/* =Twitter Shortcode
+-------------------------------------------------------------- */
+.cptw-shortcodes p {
+	overflow: hidden;
+	display: block;
+}
+.cptw-shortcodes label {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	width: 200px;
+	margin: 0 0 6px;
+	padding: 0;
+	text-align: left;
+	font-size: 13px;
+	float: left;
+}
+.cptw-shortcodes p.field {
+	margin-bottom: 0;
+}
+.cptw-shortcodes input[type=text] {
+	float: left;
+}
+.cptw-shortcodes p.description {
+	margin: 0 0 0 200px;
+}

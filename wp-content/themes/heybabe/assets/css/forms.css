@@ -1,0 +1,110 @@
+/* =Custom CSS for Gravity Forms
+-------------------------------------------------------------- */
+.block .gform_wrapper {}
+.block .gform_wrapper .left_label .gfield_label {
+	/* width: 120px; */
+    font-weight: normal;
+	text-align: right;
+}
+
+/* =General
+-------------------------------------------------------------- */
+.block .gform_wrapper ul li {
+	background: none;
+	padding: 0;
+	margin-left: 0px;
+}
+
+/* =Error Messages
+-------------------------------------------------------------- */
+.block .gform_wrapper .top_label .ginput_container {
+    max-width: 99%;
+}
+.block .gform_wrapper .validation_error {
+	color: #790000;
+	border: 1px dotted #008ecb;
+	padding: 8px;
+	font-size: 12px;
+	background-color: #eff9fd;
+}
+.block .gfield_error .gfield_label{
+	color: #008ecb;
+}
+.block .gform_wrapper .top_label .gfield_error {
+    width: 100%;
+}
+.block .gform_wrapper .gfield_error,
+.block .gform_wrapper .gfield_error.gfield_contains_required {
+	background-color: transparent !important;
+	border: none;
+	color: black;
+	margin-top: 0px !important;
+    padding: 0px !important;
+}
+.block .validation_message,
+.block .gform_wrapper .validation_error {
+	width: 93%;
+	color: #008ecb!important;
+}
+.block  .gform_wrapper .gfield_required {
+}
+.block .gform_wrapper .gform_fields .gfield_error input {
+	background: none;
+	background: #e7f4fa;
+}
+.block .gform_wrapper .gform_fields .gfield_error textarea {
+	background: #e7f4fa;
+}
+.block .gform_wrapper .top_label .gfield_description.validation_message,
+.block .gform_wrapper .gfield_description.validation_message {
+   padding: 5px 0 !important;
+}
+
+.block .gform_wrapper .top_label .gfield_error input,
+.block .gform_wrapper .top_label .gfield_error textarea,
+.block .gform_wrapper .top_label .gfield_error select {
+    border: 1px solid #008ECB;
+}
+
+/* =Fields
+-------------------------------------------------------------- */
+.block .gform_wrapper input,
+.block .gform_wrapper textarea {
+}
+.block .gform_wrapper input {
+}
+.block .gform_wrapper textarea {
+}
+.block .gform_wrapper input:hover,
+.block .gform_wrapper textarea:hover {
+}
+.block .gform_wrapper input:focus,
+.block .gform_wrapper textarea:focus {
+}
+.block .gform_wrapper .left_label ul.gfield_checkbox,
+.block .gform_wrapper .right_label ul.gfield_checkbox,
+.block .gform_wrapper .left_label ul.gfield_radio,
+.block .gform_wrapper .right_label ul.gfield_radio {}
+.block .gform_wrapper ul.gfield_checkbox,
+.block .gform_wrapper ul.gfield_radio {
+	margin: 0;
+    padding: 0;
+}
+.block .block .gform_wrapper ul.gfield_checkbox li input[type="checkbox"]:checked,
+.block .block .gform_wrapper ul.gfield_checkbox li input[type="checkbox"]:checked {
+	font-weight: normal;
+}
+.block .block .gform_wrapper ul.gfield_radio li input[type="radio"]:checked + label,
+.block .block .gform_wrapper ul.gfield_checkbox li input[type="checkbox"]:checked + label {
+    font-weight: normal;
+}
+.block .gform_wrapper .gfield_radio input {}
+.block  .gform_wrapper ul.gfield_radio li {
+	display: inline-block; margin-left: 15px;
+}
+.block .gform_wrapper .gform_footer input[type="submit"] {}
+.block .gform_wrapper .gform_footer input[type="submit"]:hover {}
+.block .gform_wrapper .gform_footer.right_label,
+.block .gform_wrapper .gform_footer.left_label {
+	 padding: 0 0 0 100px;
+}

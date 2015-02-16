@@ -1,0 +1,118 @@
+/* =Normalize +
+-------------------------------------------------------------- */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+	margin: 0;
+}
+
+/* =Default margin
+-------------------------------------------------------------- */
+p, .entry ol, .entry ul, .alignleft, .alignright, .aligncenter {
+	padding-bottom: 15px;
+}
+
+/* =Typhogaphy
+-------------------------------------------------------------- */
+blockquote  { 
+	margin-left: 20px;
+	padding-left: 10px;
+	border-left: 5px solid #eee;
+}
+blockquote p  { 
+	font-style: italic; 
+}
+.entry li {
+	padding-left: 15px;
+}
+.entry ul li {
+	background: transparent url(../images/bullet.png) no-repeat left 11px;	
+}
+.alignleft, .alignright {
+	float: left; 
+	height: auto; 
+	margin: 5px 15px 5px 0; 
+}
+.alignright  { 
+	float: right; 
+	margin: 5px 0 5px 15px; 
+}
+.aligncenter  { 
+	text-align: center;
+}
+img.aligncenter  { 
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+}
+.wp-caption { 
+	padding: 1px; 
+	text-align: center; 
+}
+.wp-caption img{ 
+	padding: 4px 0; 
+}
+.wp-caption-text { 
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+strong {
+	font-weight: bold;
+}
+.entry em {
+	font-style: italic;
+}
+.upper {
+	text-transform: uppercase;
+}
+.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+}
+.hidden {
+	display: none !important; 
+	visibility: hidden; 
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+/* =For image replacement
+-------------------------------------------------------------- */
+.ir { 
+	display: block; 
+	border: 0; 
+	text-indent: -9999em; 
+	overflow: hidden; 
+	background-color: transparent; 
+	background-repeat: no-repeat; 
+	text-align: left; 
+	direction: ltr; 
+}
+.ir br { 
+	display: none; 
+}
+
+/* =Clear fix
+-------------------------------------------------------------- */
+.clearfix:before, .clearfix:after { 
+	content: ""; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.clearfix { 
+	zoom: 1; 
+}

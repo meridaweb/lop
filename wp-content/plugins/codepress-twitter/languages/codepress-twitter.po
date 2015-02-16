@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Column Shortcodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-17 16:46+0100\n"
+"PO-Revision-Date: 2013-06-17 16:46+0100\n"
+"Last-Translator: Codepress <info@codepress.nl>\n"
+"Language-Team: Codepress <info@codepress.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../codepress-twitter.php:114
+msgid "less than a second ago"
+msgstr ""
+
+#: ../codepress-twitter.php:116
+#, php-format
+msgid "%d seconds ago"
+msgstr ""
+
+#: ../codepress-twitter.php:126
+msgid "yesterday"
+msgstr ""
+
+#: ../codepress-twitter.php:136
+msgid "last week"
+msgstr ""
+
+#: ../codepress-twitter.php:142
+msgid "last month"
+msgstr ""
+
+#: ../codepress-twitter.php:202
+msgid "from"
+msgstr ""
+
+#: ../classes/class-admin.php:42 ../classes/class-shortcode.php:119
+msgid "Twitter"
+msgstr ""
+
+#: ../classes/class-admin.php:66
+msgid "Twitter response"
+msgstr ""
+
+#: ../classes/class-admin.php:74
+msgid "Succesfully verified credentials."
+msgstr ""
+
+#: ../classes/class-admin.php:101
+msgid "Settings"
+msgstr ""
+
+#: ../classes/class-admin.php:185
+msgid "Consumer key"
+msgstr ""
+
+#: ../classes/class-admin.php:186
+msgid "Consumer secret"
+msgstr ""
+
+#: ../classes/class-admin.php:187
+msgid "Access token"
+msgstr ""
+
+#: ../classes/class-admin.php:188
+msgid "Access token secret"
+msgstr ""
+
+#: ../classes/class-admin.php:193
+msgid "Twitter Settings"
+msgstr ""
+
+#: ../classes/class-admin.php:205
+msgid "Go to"
+msgstr ""
+
+#: ../classes/class-admin.php:206
+msgid "Create a new application"
+msgstr ""
+
+#: ../classes/class-admin.php:207
+msgid "Create access tokens"
+msgstr ""
+
+#: ../classes/class-admin.php:208
+msgid "Then fill in your created Consumer keys and Access tokens below."
+msgstr ""
+
+#: ../classes/class-admin.php:232
+msgid "Save Changes"
+msgstr ""
+
+#: ../classes/class-shortcode.php:97
+msgid "Insert Twitter"
+msgstr ""
+
+#: ../classes/class-shortcode.php:121
+msgid "Usernames"
+msgstr ""
+
+#: ../classes/class-shortcode.php:124 ../classes/class-shortcode.php:134
+msgid "Fill in one or more usernames seperated by a comma."
+msgstr ""
+
+#: ../classes/class-shortcode.php:126
+msgid "Search"
+msgstr ""
+
+#: ../classes/class-shortcode.php:129
+msgid ""
+"Fill in search query by topical interest, full name, company name, location, "
+"or hashtag."
+msgstr ""
+
+#: ../classes/class-shortcode.php:131
+msgid "Favorites"
+msgstr ""
+
+#: ../classes/class-shortcode.php:136
+msgid "Number of tweets"
+msgstr ""
+
+#: ../classes/class-shortcode.php:140
+msgid "Insert Twitter shortcode"
+msgstr ""
