@@ -23,7 +23,6 @@
 		<div class="entry">
 			<?php the_excerpt(); ?>
 			<div class="entry-meta">
-				<a href="<?php echo get_permalink($post->ID); ?>#comments" class="">Leave a comment</a>
 				<div class="categories">Posted in <?php the_category(', ', 'multiple') ?> | <?php echo date_i18n( 'd/m/Y', strtotime( $post->post_date ) ); ?></div>
 				<a class="a2a_dd" href="http://www.addtoany.com/share_save">SHARE</a>
 				<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
