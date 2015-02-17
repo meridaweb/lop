@@ -9,7 +9,9 @@
 			<div class="date"><?php echo date_i18n( 'd F Y', strtotime( $post->post_date ) ); ?></div>
 
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'archive' );  ?>
-    		<img src="<?php echo $image[0]; ?>" alt="" />
+			<a href="<?php the_permalink(); ?>">
+				<img src="<?php echo $image[0]; ?>" alt="" />
+			</a>
 			<div class="entry">
 				<?php the_excerpt(); ?>
 				<div class="entry-meta">

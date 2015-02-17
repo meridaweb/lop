@@ -25,7 +25,7 @@ define( 'CPTW_ACCESS_SECRET', 'TBdQ5ziO7ubQ3wUygPtsgSohrid48K1Nmyc7xZ96cY0' );
  */
 register_nav_menus( array(
     'main'  => __('Main navigation'),
-    'about'  => __('About  & Email'),
+    'about'  => __('About & Email'),
     'social-footer'  => __('Social links in footer'),
 ));
 
