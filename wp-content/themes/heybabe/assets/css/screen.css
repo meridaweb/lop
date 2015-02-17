@@ -57,9 +57,11 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal; }
 
 h2 {
-  font-size: 18px;
   margin-bottom: 16px;
-  line-height: 18px; }
+  line-height: 18px;  
+  font-size: 16px;
+  font-weight: 700;
+}
 
 h3 {
   font-size: 16px;
@@ -148,8 +150,9 @@ a.button:hover span {
       color: white; }
     #branding section .title {
       font-weight: bold;
-      color: #3dec8f;
       margin-right: 0.4em; }
+    #branding section .description { 
+      font-weight: 100; }
   #branding #about-nav {
     font-size: 15px;
     float: left; }
@@ -397,7 +400,6 @@ a.button:hover span {
 #archive .content h2.title {
   font-family: "din", arial, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: 700;
   text-transform: uppercase;
   background: transparent url(../images/underscore.png) no-repeat left 14px;
   padding-left: 22px;
@@ -467,7 +469,7 @@ a.button:hover span {
         font-size: 16px;
         line-height: 20px; }
     .page-template-page-templatesabout-php #archive .content.extras h2.title {
-      font-weight: normal; }
+      font-weight: 700; }
     .page-template-page-templatesabout-php #archive .content.extras img, .page-template-page-templatesabout-php #archive .content.extras .embeddedvideo {
       margin-bottom: 0.7em; }
 

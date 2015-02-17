@@ -7,8 +7,6 @@
 
 	<section class="gewoonleuk">
 
-		<h3>Gewoon leuk</h3>
-
 		<?php
 		$args = array(
 			'post_type'         => 'gewoonleuk',
@@ -34,7 +32,7 @@
 
 		} ?>
 
-		</section>
+	</section>
 
 </div>
 
