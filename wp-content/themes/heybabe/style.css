@@ -6,3 +6,7 @@ Author: Codepress
 Author URI: http://www.codepress.nl
 Version: 1.0
 */
+
+img.size-full {
+    margin-left: -220px !important;
+}
