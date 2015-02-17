@@ -9,7 +9,7 @@
 		});
         
         //Re-locate images to the left if they are big
-        $('#archive img.aligncenter.size-full').each(function() {
+        $('#archive img.aligncenter.size-full, .entry img.aligncenter.size-large').each(function() {
             if ( $(this).attr('width') >= 850 ) {
                 $(this).css('margin-left', '-220px');
             }
