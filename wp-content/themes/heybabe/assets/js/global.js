@@ -7,6 +7,13 @@
 		$('.flexslider').flexslider({
 			animation: "slide"
 		});
+        
+        //Re-locate images to the left if they are big
+        $('#archive img.aligncenter.size-full').each(function() {
+            if ( $(this).attr('width') >= 850 ) {
+                $(this).css('margin-left', '-220px');
+            }
+        });
 
 	});
 
