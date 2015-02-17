@@ -69,11 +69,7 @@
 				<div class="categories">This entry was posted in <?php the_category(', ', 'multiple') ?> | <?php echo date_i18n( 'd/m/Y', strtotime( $post->post_date ) ); ?></div>
 					<a class="a2a_dd" href="http://www.addtoany.com/share_save">SHARE</a>
 				<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
-			</div>
-
-			<?php if ( comments_open() || get_comments_number() ) {
-                comments_template();
-            }; ?>
+			</div> 
 
 		</div>
 	</div><!--.content-->
