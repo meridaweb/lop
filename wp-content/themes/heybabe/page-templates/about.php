@@ -4,7 +4,7 @@
 
 <div id="side-right">
 
-	<div class="cp-tweets" data-usernames="akkiebosje" data-count="3"></div>
+	<div class="cp-tweets" data-usernames="Antoin_LoP" data-count="3"></div>
 	<?php dynamic_sidebar('blog'); ?>
 
 	<section class="gewoonleuk">
