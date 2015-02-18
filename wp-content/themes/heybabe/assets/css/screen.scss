@@ -431,7 +431,7 @@ a.button:hover span { background-position: right -64px; }
 	text-decoration: underline;
 	word-wrap: break-word;
 }
-#side-right .quote .widget-text a {
+#side-right .quote .widget-text a, #side-right .quote .widgettitle a {
 	display:block;
 	font-family: $font-din;
 	font-weight: bold;

@@ -340,17 +340,23 @@ margin-left: -20px; }
   text-decoration: underline;
   word-wrap: break-word; }
 
-#side-right .quote .widget-text a {
+#side-right .quote .widget-text a, #side-right .quote .widgettitle a {
   display: block;
   font-family: "din", arial, Helvetica, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  background: #3dec8f;
-  color: #000;
+  color: #fff;
+  background: #000;
   font-size: 16px;
   line-height: 23px;
   padding: 4px 3px 2px 3px;
-  margin-bottom: 1px; }
+  margin-bottom: 1px; 
+  margin-top: 6px;
+}
+
+#enhancedtextwidget-7 {
+    margin-top: 6px;
+}
 
 #side-right .widget {
   background: transparent url(../images/seperator.png) no-repeat left bottom;
